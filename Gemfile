@@ -8,7 +8,7 @@ group :production do
 end
 
 group :development, :test do
-	gem 'sqlite3'
+	gem 'sqlite3', :require => 'sqlite3'	
 end
 
 group :assets do
@@ -16,3 +16,4 @@ group :assets do
 	gem 'coffee-rails', '~> 4.0.0'
 	gem 'uglifier', '>= 1.3.0'
 end
+
